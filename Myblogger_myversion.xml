@@ -1119,12 +1119,12 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:widget id='Header1' locked='true' title='فكرك (رأس الصفحة)' type='Header' version='1'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhgUWS5hD50_CDH6QBRMFRzO5qPJYvGqBOCApkkwG8pMcPGzD6T3vK8P0hwR0KIVCv2S1GyMQOXzLXnkxeNWdW-T7tAEAYAn2TIVZ3DQ8x8uqKBYfZ4TSeVONpdaQcIKE-EVw4qvJK_r1VcItXMLWpxju1EkCJMO5qORBPr34RG1dRtAWzCI95qkEN7sNo=s1200</b:widget-setting>
-            <b:widget-setting name='displayHeight'>1200</b:widget-setting>
-            <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+            <b:widget-setting name='displayHeight'>2000</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>1500</b:widget-setting>
             <b:widget-setting name='useImage'>true</b:widget-setting>
             <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
             <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-            <b:widget-setting name='displayWidth'>1200</b:widget-setting>
+            <b:widget-setting name='displayWidth'>2000</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
 
@@ -2773,7 +2773,7 @@ head.appendChild(script);
         </b:widget-settings>
         <b:includable id='main'>
   <div class='widget-content'>
-<script type='text/javascript'>var numposts =4;var showpostthumbnails = true;var showcommentnum = true;var showpostdate = true;var showpostsummary = false;var numchars = 180;</script> 
+<script type='text/javascript'>var numposts =4;var showpostthumbnails = true;var showcommentnum = true;var showpostdate = true;var showpostsummary = false;var numchars = 180;</script>
 <script expr:src='&quot;/feeds/posts/default/-/&quot; + data:content + &quot;?published&amp;alt=json-in-script&amp;callback=labelthumbs&quot;' type='text/javascript'/>
   </div>
 </b:includable>
