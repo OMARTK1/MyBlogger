@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فكرك - A blog for artistic, cultural, social, scientific, and economic topics.">
+    <meta name="keywords" content="art, culture, society, science, economy, blog">
+    <meta name="author" content="Your Name">
+    <title>فكرك | A Blog for Development</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+        }
+        .navbar {
+            background-color: #007bff;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .hero-section {
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 24px;
+        }
+        .content-section {
+            padding: 40px 0;
+        }
+        .content-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .content-section p {
+            font-size: 18px;
+        }
+        .post {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .post h3 {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        .post p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">فكرك</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>مرحباً بكم في فكرك</h1>
+        <p>منصة للتطوير الفردي والمجتمعي</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container content-section">
+        <h2>أحدث المقالات</h2>
+
+        <!-- Post 1 -->
+        <div class="post">
+            <img src="post-image1.jpg" alt="Post Image 1">
+            <h3>عنوان المقال الأول</h3>
+            <p>نص مختصر عن المقال الأول. النص ينبغي أن يكون جذاباً ومختصراً ليشجع الزائر على قراءة المزيد.</p>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post">
+            <img src="post-image2.jpg" alt="Post Image 2">
+            <h3>عنوان المقال الثاني</h3>
+            <p>نص مختصر عن المقال الثاني. النص ينبغي أن يكون جذاباً ومختصراً ليشجع الزائر على قراءة المزيد.</p>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="post">
+            <img src="post-image3.jpg" alt="Post Image 3">
+            <h3>عنوان المقال الثالث</h3>
+            <p>نص مختصر عن المقال الثالث. النص ينبغي أن يكون جذاباً ومختصراً ليشجع الزائر على قراءة المزيد.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>جميع الحقوق محفوظة &copy; 2024 فكرك</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
