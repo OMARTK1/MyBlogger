@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/OMARTK1/MyBlogger/main/favicon/favicon-16x16.png" />
+  <link href='https://raw.githubusercontent.com/OMARTK1/MyBlogger/main/favicon/favicon-16x16.png' rel='icon' type='image/x-icon'/>
   <head>
 
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
@@ -28,6 +28,8 @@
 
 	<!-- Blogger main head data and meta -->
     <b:include data='blog' name='all-head-content'/>
+
+    <link href='https://raw.githubusercontent.com/OMARTK1/MyBlogger/main/favicon/favicon-16x16.png' rel='icon' type='image/x-icon'/>
 
     <link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l' rel='stylesheet'/>
 
@@ -193,7 +195,7 @@ article{padding:0;overflow:hidden}
 /*Header*/
 .pixel-center-header{background:#fff}
 #pixel-wide-wrapper{color:#fff;padding:30px 0;margin:0 auto}
-#header-inner{background-position:left;background-repeat:no}
+#header-inner{background-position:left;background-repeat:no;width: 100%;max-width: 100%;margin: 0 auto;}
 .pixel-wide img{height:auto;max-height:100%;margin:0}
 .pixel-wide h1,.pixel-wide h1 a,.pixel-wide h1 a:hover,.pixel-wide h1 a:visited{font-family:'Josefin Sans', sans-serif;color:$maincolor;font-size:52px;font-weight:400;line-height:1.2em;margin:0;padding:0 0 5px;text-decoration:none;text-transform:uppercase;letter-spacing:1px}
 .pixel-wide h3{font-weight:400;margin:0;padding:0}
@@ -1120,15 +1122,15 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
     <div class='pixel-wide'>
       <b:section class='pixel-wide' id='pixel-wide' maxwidgets='1' name='Blog Header' preferred='no' showaddelement='no'>
         <b:widget id='Header1' locked='true' title='فِكْرُك (رأس الصفحة)' type='Header' version='1'>
-          <b:widget-settings>
-            <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiKmuhzGzSHhOA3KHnIZrHUqJjG5JOl_mL4OnhikVlH4Z0d434xKFY2oGPSlFTa9scqXAITbB4Fz5f9lC7K8SsueGoCaqgYxyfzpjr-XBze4nPPucnBZKzCzTvc2qs4XIoEmM-Tx2wxCM1TH04N1NmvxYVs_I5R1VPWvPMedeGlAMn9LkpndAMhDwrqBuw=s1024</b:widget-setting>
-            <b:widget-setting name='displayHeight'>1024</b:widget-setting>
-            <b:widget-setting name='sectionWidth'>150</b:widget-setting>
-            <b:widget-setting name='useImage'>true</b:widget-setting>
-            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-            <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-            <b:widget-setting name='displayWidth'>1024</b:widget-setting>
-          </b:widget-settings>
+  			<b:widget-settings>
+    			<b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiKmuhzGzSHhOA3KHnIZrHUqJjG5JOl_mL4OnhikVlH4Z0d434xKFY2oGPSlFTa9scqXAITbB4Fz5f9lC7K8SsueGoCaqgYxyfzpjr-XBze4nPPucnBZKzCzTvc2qs4XIoEmM-Tx2wxCM1TH04N1NmvxYVs_I5R1VPWvPMedeGlAMn9LkpndAMhDwrqBuw=s1024</b:widget-setting>
+    			<b:widget-setting name='displayHeight'>300</b:widget-setting>
+    			<b:widget-setting name='sectionWidth'>100%</b:widget-setting>
+    			<b:widget-setting name='useImage'>true</b:widget-setting>
+    			<b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+    			<b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+    			<b:widget-setting name='displayWidth'>1024</b:widget-setting>
+  			</b:widget-settings>
           <b:includable id='main'>
 
   <b:if cond='data:useImage'>
@@ -2709,12 +2711,12 @@ head.appendChild(script);
       <b:widget id='Header2' locked='false' title='فِكْرُك (رأس الصفحة)' type='Header'>
         <b:widget-settings>
           <b:widget-setting name='displayUrl'/>
-          <b:widget-setting name='displayHeight'>0</b:widget-setting>
-          <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+          <b:widget-setting name='displayHeight'>300</b:widget-setting>
+          <b:widget-setting name='sectionWidth'>100%</b:widget-setting>
           <b:widget-setting name='useImage'>false</b:widget-setting>
           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
           <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
-          <b:widget-setting name='displayWidth'>0</b:widget-setting>
+          <b:widget-setting name='displayWidth'>1024</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
 
@@ -2853,7 +2855,7 @@ head.appendChild(script);
   </div>
 </b:includable>
       </b:widget>
-      <b:widget id='BlogSearch1' locked='false' title='بحث هذه المدونة الإلكترونية' type='BlogSearch'>
+      <b:widget id='BlogSearch1' locked='false' title='بحث هذه المدونة الإلكترونية' type='BlogSearch' version='1'>
         <b:includable id='main'>
     <!-- only display title if it's non-empty -->
     <b:if cond='data:title != &quot;&quot;'>
@@ -3088,6 +3090,19 @@ $(".post-random").insertBefore(".post-body br:eq("+$cent+")");
 </b:includable>
       </b:widget>
       <b:widget id='LinkList3' locked='false' title='مواقع التواصل الإجتماعي' type='LinkList' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='link-3'>https://www.pinterest.com/irbahnet/</b:widget-setting>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='link-4'>https://twitter.com/Aroujihicham</b:widget-setting>
+          <b:widget-setting name='text-1'>instagram</b:widget-setting>
+          <b:widget-setting name='link-1'>https://www.instagram.com/larouji_hicham/</b:widget-setting>
+          <b:widget-setting name='text-0'>facebook</b:widget-setting>
+          <b:widget-setting name='link-2'>https://www.youtube.com/channel/UCz1VmpJnaxR63ZLaeXjhcnw?view_as=subscriber</b:widget-setting>
+          <b:widget-setting name='text-3'>pinterest</b:widget-setting>
+          <b:widget-setting name='link-0'>https://www.facebook.com/laroujihicham</b:widget-setting>
+          <b:widget-setting name='text-2'>youtube</b:widget-setting>
+          <b:widget-setting name='text-4'>twitter</b:widget-setting>
+        </b:widget-settings>
         <b:includable id='main'>
   <b:include name='content'/>
 <b:include name='MetaWebsite'/>
@@ -3116,6 +3131,17 @@ $(".post-random").insertBefore(".post-body br:eq("+$cent+")");
                   </b:includable>
       </b:widget>
       <b:widget id='LinkList4' locked='false' title='مواقع التواصل الإجتماعي' type='LinkList' version='2' visible='false'>
+        <b:widget-settings>
+          <b:widget-setting name='link-3'>https://www.pinterest.com/irbahnet/_saved/</b:widget-setting>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='text-1'>youtube</b:widget-setting>
+          <b:widget-setting name='link-1'>https://www.youtube.com/channel/UCz1VmpJnaxR63ZLaeXjhcnw?view_as=subscriber</b:widget-setting>
+          <b:widget-setting name='text-0'>instagram</b:widget-setting>
+          <b:widget-setting name='link-2'>https://www.facebook.com/laroujihachim/?modal=admin_todo_tour</b:widget-setting>
+          <b:widget-setting name='text-3'>pinterest</b:widget-setting>
+          <b:widget-setting name='link-0'>https://www.instagram.com/larouji_hicham/</b:widget-setting>
+          <b:widget-setting name='text-2'>facebook</b:widget-setting>
+        </b:widget-settings>
         <b:includable id='main'>
   <b:include name='widget-title'/>
   <b:include name='content'/>
@@ -3218,7 +3244,7 @@ else{$Center = Math.floor($(&#39;.post-body br&#39;).length/2-1);$(&quot;#Center
       </b:widget>
       <b:widget id='PageList1' locked='false' title='الصفحات' type='PageList' version='2' visible='true'>
         <b:widget-settings>
-          <b:widget-setting name='pageListJson'><![CDATA[{"0":{"href":"https://fiqrok.blogspot.com/","position":0,"title":"الصفحة الرئيسية"},"link1":{"href":"https://fiqrok.blogspot.com/احدث المقالات/","position":2,"title":"احدث المقالات"},"link0":{"href":"https://fiqrok.blogspot.com/تجميعة المقالات/","position":1,"title":"تجميعة المقالات"}}]]></b:widget-setting>
+          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"https://fiqrok.blogspot.com/احدث المقالات/","position":1,"title":"احدث المقالات"},"link0":{"href":"https://fiqrok.blogspot.com/تجميعة المقالات/","position":0,"title":"تجميعة المقالات"}}]]></b:widget-setting>
           <b:widget-setting name='homeTitle'>الصفحة الرئيسية</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
